@@ -1,0 +1,5 @@
+cd "C:\Users\Thomas Holmes\QA Limited\Data Science Portfolio - General\New Course Development 2023\Python for Data Science and Machine Learning\labs\10_Deploying Models & Insights"
+
+uvicorn main:app --reload --no-use-colors
+
+http://127.0.0.1:8000/predict/5?ds=BARCELONA&vc=Turista&fr=Promo&dur=160

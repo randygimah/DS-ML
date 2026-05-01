@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter & IPython
+.ipynb_checkpoints/
+.jupyter/
+*/.ipynb_checkpoints/
+.ipython/
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data files (large CSVs, etc.)
+data/
+*.csv
+!**/data/README.md
+
+# Model artifacts & pickles
+*.pkl
+*.pickle
+*.p
+*.joblib
+*.h5
+*.model
+
+# Environment
+.env
+conda-env.yml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+*.bak
